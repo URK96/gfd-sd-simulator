@@ -40,7 +40,7 @@ const messages = {
 	},
 	"ko-KR": {
 		txt: {
-			title: "소녀전선 숙소/치비 SD시뮬레이터",
+			title: "소녀전선 SD시뮬레이터",
 			doll: "인형",
 			skin: "코스튬",
 			motion: "행동",
