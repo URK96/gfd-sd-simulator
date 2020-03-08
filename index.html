@@ -1,90 +1,3 @@
-<!--<!DOCTYPE html><html lang="ko"><head>
-<meta charset="UTF-8">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css">
-<link rel="stylesheet" href="css/css.css">
-<link rel="icon" href="images/og_icon.png">
-<meta name="keywords" content="소녀전선,소전,GLF,girls'frontline,db,database,디비,데이터베이스,시뮬레이터,simulator">
-<meta property="og:site_name" content="Girls' FrontLine Spine Simulator">
-<meta property="og:url" content="/">
-<meta property="og:image" content="https://sf2031.com/gf-bingo-calculator/img/740X236.jpg">
-<meta property="og:title" content="Girls' FrontLine Spine Simulator">
-<meta property="og:description" content="Girls' FrontLine Spine Simulator">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="gf-spine-simulator">
-<meta name="twitter:title" content="Girls' FrontLine Spine Simulator">
-<meta name="twitter:image" content="https://sf2031.com/favicon.png">
-<meta name="twitter:description" content="Girls' FrontLine Spine Simulator">-->
-<!-- IE alert -->
-<!--<script>
-var userAgent = navigator.userAgent.toLowerCase(); //빠른 구별 위해 소문자로만 출력
-if(userAgent.indexOf('trident')>-1){alert("Internet Explorer 는 WebGL을 지원하지 않습니다.\nMicrosoft Edge, Google Chrome, Mozilla Firefox, Opera  를 이용해 주세요.")};
-</script>
-</head>
-<body>
-<div id="app" class="Container p-0 mx-auto row no-gutters">
-<header class="mx-auto my-3 d-none d-md-block"><h2>{{ $t('txt.title') }}</h2></header>
-<nav class="controlUi my-3 my-md-1 row no-gutters">
-<div class="preCanvas Canvas col-4"></div>
-<div class="preUI mx-3 col">
-<form-sm id=doll></form-sm>
-<form-sm id=skin></form-sm>
-<form-sm id=motion></form-sm>
-<div class="text-center">
-<div class="btn-group btn-group-sm">
-<button type="button" class="btn btn-primary" @click="AddRole">{{ $t('txt.AddRole') }}</button>
-<button type="button" class="btn btn-secondary" @click="StopRole">{{ $t('txt.StopRole1') }}</button>
-</div>
-</div>
-</div>
-<div class="gameview col-5">
-<div class="charOptions">
-<char-op id="GameDoll"></char-op>
-<char-op id="GameMotion"></char-op>
-<char-op id="SelectposX"></char-op>
-<char-op id="SelectposY"></char-op>
-<char-op id="Selectscale"></char-op>
-<div class="text-center">
-<div class="btn-group btn-group-sm">
-<button id="TimeStop" type="button" class="btn btn-secondary btn-sm" @click="TimeStop">{{ $t('txt.StopRole1') }}</button>
-<button type="button" class="btn btn-primary btn-sm" @click="TurnRole">{{ $t('txt.Mirror') }}</button>
-<button type="button" class="btn btn-secondary btn-sm" @click="RemoveRole">{{ $t('txt.removeRole') }}</button>
-</div>
-</div>
-</div>
-</div>
-</nav>
-<div class="custom-control custom-checkbox">
-<input type="checkbox" id="customCheck" class="custom-control-input" v-model="isShowFPS">
-<label class="custom-control-label" for="customCheck">{{ $t('txt.fpsText') }}</label>
-</div>
-<div class="gameCanvas Canvas mx-auto"></div>
-<nav class="convasControl clearfix col-12 mt-2">
-<div class="gameSelectBackground form-inline float-left">
-<label>{{ $t('txt.background') }}</label>
-<select class="custom-select-sm" v-model="SelectBackground" @input="changeBackground">
-<option value="0">{{ $t('txt.none') }}</option>
-<option v-for="(img,index) in background" :value="index+1">{{ img }}</option>
-</select>
-</div>
-<div class="btn-group btn-group-sm float-right">
-<button type="button" class="btn btn-secondary" @click="RemoveAllRole">{{ $t('txt.RemoveAllRole') }}</button>
-<button type="button" class="btn btn-secondary" @click="AllStopRole">{{ $t('txt.AllStopRole1') }}</button>
-<button type="button" class="btn btn-primary" @click="savePng">{{ $t('txt.savePng') }}</button>
-<button type="button" class="btn btn-primary" @click="saveStage">{{ $t('txt.saveStage') }}</button>
-</div>
-</nav>
-<footer class="mx-auto">
-<p class="text-muted" v-html="$t('txt.description')"></p>
-</footer>
-</div>
-<script src="https://cdn.jsdelivr.net/npm/pixi.js@4.8.6/dist/pixi.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/pixi-spine@1.0.10/bin/pixi-spine.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/vue@2.6.7/dist/vue.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/vue-i18n@8.8.2/dist/vue-i18n.js"></script>
-<script src="js/girlsData.js"></script>
-<script src="js/spine-data.js"></script>
-<script src="js/game.js"></script>
-</body></html>-->
 <!DOCTYPE html><html lang="ko"><head>
 <meta charset="UTF-8">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css">
@@ -111,7 +24,7 @@ if(userAgent.indexOf('trident')>-1){alert("Internet Explorer 는 WebGL을 지원
 <div id="app" class="Container p-0 mx-auto row no-gutters">
 <header class="mx-auto my-3 d-none d-md-block"><h2>{{ $t('txt.title') }}</h2></header>
 <nav class="controlUi my-3 my-md-1 row no-gutters">
-<div class="preCanvas Canvas col-4"></div>
+<div class="preCanvas Canvas col-8"></div>
 <div class="preUI mx-3 col">
 <form-sm id=doll></form-sm>
 <form-sm id=skin></form-sm>
