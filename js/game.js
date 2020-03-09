@@ -323,9 +323,11 @@ var app = new Vue({
 		changeAnimation: function(num){
 			let preview=this.preview,name=preview.spine.spineData.animations[num].name;
 			if(name=="die"||name=="reload"||name=="victory"){
-				isload=false
+				//isload=false
+				preview.spine.state.setAnimationByName(0,name,false,0);
+			}else{
+				preview.spine.state.setAnimationByName(0,name,true,0);
 			};
-			preview.spine.state.setAnimationByName(0,name,true,0);
 			preview.spine.update(0)
 		},
 		gamechangeAnimation: function(num = 1){
