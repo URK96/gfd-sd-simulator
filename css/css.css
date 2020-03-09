@@ -6,7 +6,7 @@ input{align-self:center}
 .input-group-text{width:100%}
 .Canvas{border:0px solid #CCC}
 .gameCanvas.Canvas.mx-auto canvas{width:max-content;height:100%}
-.preCanvas{width:max-content;height:17em}
+.preCanvas{width:30em;height:17em}
 .charOptions{
 	border:1px solid #CCC;
 	padding:10px;
