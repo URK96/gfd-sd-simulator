@@ -64,7 +64,7 @@ const messages = {
 			savePng: "이미지 저장",
 			saveStage: "주소 복사",
 			saveStagetxt: "복사되었으니 주소창에 붙여넣기 하세요!",
-			description: "<small>이것은 단순한 소녀전선 스파인 시뮬레이터이며, 실제 게임과는 다를 수 있습니다.</small><br>모든 이미지 파일에 대한 저작권은 게임 개발사인 <a href='http://gf.txwy.tw/' target='_blank'>天下網遊</a> 에 있습니다.<br>Orignal Simulator : <a href='https://github.com/cullus' target='_blank'>cullus</a><a href='https://github.com/cullus/gfSpinePiXi' target='_blank'>/gfSpinePiXi</a><br>Original GitHub : <a href='https://github.com/wsmwason/gf-spine-simulator' target='_blank'>wsmwason/gf-spine-simulator [업데이트 오리지널]</a><br>Korean translate GitHub : <a href='https://github.com/kjm1922/gf-spine-simulator' target='_blank'>kjm1922/gf-spine-simulator [한글화 적용]</a><br>More Modifty : <a href='https://github.com/ergo9ine'>ergo9ine</a><a href='https://github.com/SFDB-Team/gf-spine-simulator' target='_blank'>/gf-spine-simulator [커스텀]</a><br>More Modifty : <a href='https://github.com/URK96'>URK96</a><a href='https://github.com/URK96/gfd-sd-simulator' target='_blank'>/gfd-sd-simulator [GFD용 레이아웃 단순화]</a>",
+			description: "<small>이것은 단순한 소녀전선 스파인 시뮬레이터이며, 실제 게임과는 다를 수 있습니다.</small><br>모든 이미지 파일에 대한 저작권은 게임 개발사인 <a href='http://gf.txwy.tw/' target='_blank'>天下網遊</a> 에 있습니다.<br>Orignal Simulator : <a href='https://github.com/cullus' target='_blank'>cullus</a><a href='https://github.com/cullus/gfSpinePiXi' target='_blank'>/gfSpinePiXi</a><br>Original GitHub : <a href='https://github.com/wsmwason/gf-spine-simulator' target='_blank'>wsmwason/gf-spine-simulator [업데이트 오리지널]</a><br>Korean translate GitHub : <a href='https://github.com/kjm1922/gf-spine-simulator' target='_blank'>kjm1922/gf-spine-simulator [한글화 적용]</a><br>More Modifty : <a href='https://github.com/ergo9ine'>ergo9ine</a><a href='https://github.com/SFDB-Team/gf-spine-simulator' target='_blank'>/gf-spine-simulator [커스텀]</a><br>Simplify : <a href='https://github.com/URK96'>URK96</a><a href='https://github.com/URK96/gfd-sd-simulator' target='_blank'>/gfd-sd-simulator [GFD용 레이아웃 단순화]</a>",
 		}
 	},
 	"ja-JP":{
@@ -235,7 +235,7 @@ var app = new Vue({
 		girls : {},
 		preview: {
 			isUpdate:true,
-			selectScale:1,
+			selectScale:0.5,
 		},
 		gameview: {
 			role:[],
