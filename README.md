@@ -1,17 +1,16 @@
-# 소녀전선 인형 시뮬레이터
+# 소녀전선 인형 SD 시뮬레이터 (for GFD)
 
-![미리보기](https://raw.githubusercontent.com/wsmwason/gf-spine-simulator/master/images/preview.png)
-
- * 이 프로젝트는 cullus 의 소녀전선Q시뮬레이터를 기반으로 만들어졌습니다.[cullus/gfSpinePiXi](https://github.com/cullus/gfSpinePiXi)
- * 그러나 일부 기능을 더 추가하기 위해서 [소녀전선 DB](https://gf.fws.tw/) 를 통합시켰습니다.
+ * 이 프로젝트는 cullus 의 소녀전선Q시뮬레이터의 소스가 원본입니다.[cullus/gfSpinePiXi](https://github.com/cullus/gfSpinePiXi)
+ * 번역 및 일부 기능이 추가된 gf-spine-simulator를 기반으로 작업되었습니다.[SFDB-Team/gf-spine-simulator](https://github.com/SFDB-Team/gf-spine-simulator)
  * MIT License Duplicate 에 의해 동일한 권한을 얻었습니다.[cullus](https://github.com/cullus)
 
-## gf-spine-simulator
+## gfd-sd-simulator
 
  * 통합 미리보기 URL (중국어) https://gf.fws.tw/db/guns/simulator/
  * 수정된 변경본 URL (중국어) https://gf.fws.tw/gf-spine-simulator/
  * 통합 미리보기 URL (한국어 번역) https://girlsfrontline.kr/db/simulator/
- * 커스텀 버전   URL (한국어) 을 다시 재 Fork 처리 했습니다. https://github.com/SFDB-Team/gf-spine-simulator/
+ * 커스텀 버전   URL (한국어) https://github.com/SFDB-Team/gf-spine-simulator/
+ * GFD용 UI 간소화 버전 URL (한국어) https://github.com/URK96/gfd-sd-simulator/
 
 ## 통합기능
 
@@ -20,23 +19,8 @@
 
 ## 수정된 버전의 주요 기능
  
- * Vue.js 포팅
- * 이미지 저장 기능
- * Bootstrap 4.3.1 업데이트
- * pixijs 4.8.6 업데이트
- * 캐릭터 이름 한국어화
- * 개별 정지 버튼 추가
- * 배경 추가
- * SD 모두제거 버튼 추가
- * SD 드래그(터치)로 이동
- * SD 클릭으로 인형목록에서 선택
- * 다국어화(English/Japanse)
-
-## Todo
-
- * 스킨 이름 한국어화
- * 인형/스킨/배경 추가
- * 반응형 레이아웃
+* 뷰어 외 불필요한 기능 제거
+* 모바일 환경에 맞게 UI 조정
 
 ## License
 
