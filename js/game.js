@@ -235,7 +235,7 @@ var app = new Vue({
 		girls : {},
 		preview: {
 			isUpdate:true,
-			selectScale:0.5,
+			selectScale:0.8,
 		},
 		gameview: {
 			role:[],
