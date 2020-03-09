@@ -582,7 +582,7 @@ var app = new Vue({
 		let preview=this.preview,gameview=this.gameview;
 		this.girls=new Girls(`character/`);
 		preview.canvas=this.$el.querySelector(".preCanvas");
-		preview.selectX=preview.canvas.clientWidth*0.5;
+		preview.selectX=preview.canvas.clientWidth*1;
 		preview.selectY=preview.canvas.clientHeight*0.85;
 		preview.stage=new PIXI.Container;
 		preview.renderer=PIXI.autoDetectRenderer(preview.canvas.clientWidth,preview.canvas.clientHeight,{transparent:true});
