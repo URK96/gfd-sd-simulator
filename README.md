@@ -2,7 +2,6 @@
 
  * 이 프로젝트는 cullus 의 소녀전선Q시뮬레이터의 소스가 원본입니다.[cullus/gfSpinePiXi](https://github.com/cullus/gfSpinePiXi)
  * 번역 및 일부 기능이 추가된 gf-spine-simulator를 기반으로 작업되었습니다.[SFDB-Team/gf-spine-simulator](https://github.com/SFDB-Team/gf-spine-simulator)
- * MIT License Duplicate 에 의해 동일한 권한을 얻었습니다.[cullus](https://github.com/cullus)
 
 ## gfd-sd-simulator
 
@@ -24,4 +23,4 @@
 
 ## License
 
-MIT License
+원본 소스 라이선스와 동일한 GPL v2.0이 적용됩니다.
